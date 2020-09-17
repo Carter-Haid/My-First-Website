@@ -99,6 +99,15 @@ a.nav-link{
 	opacity:.20;
 }
 
+img{
+    border-radius: 50%;
+    height: 42%;
+    width: 14%;
+    background-color: #DDD;
+    border: 5px solid #00a9e2;
+
+}
+
 .intro {
 	text-align:center;
     color: var(--main-fonts-color);
@@ -159,7 +168,7 @@ a.nav-link{
 ──────────────────*/
 
 #projects{
-	margin-top:100px;
+	margin-top:20px;
     height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -170,7 +179,7 @@ a.nav-link{
 	background-color: var(--main-background);
 }
 #projects h3{
-    padding-top: 70px;
+    padding-top: 0px;
 }
 #projects p{
 	font-family: var(--main-font-family);
@@ -232,7 +241,7 @@ a.nav-link{
 #contact{
 	margin: auto;
 	padding-bottom: 25px;
-	height: 600px;
+	height: 475px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -242,7 +251,7 @@ a.nav-link{
 }
 
 #contact p{
-	padding:10px;
+	padding:0px;
 	text-align:center;
 	font-size:1.2rem;
 	font-family: var(--main-font-family);
