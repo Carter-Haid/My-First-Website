@@ -9,7 +9,14 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
       <link rel="icon" href="https://github.com/Carter-Haid/personalWebsite/blob/master/Media/icon.png?raw=true">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
+      <style>
+	  .open_close{
+		    transform: none !important;
+	  }
+	  .nav-bar li {
+			opacity: 1;
+		}
+	  </style>
   </head>
     <body>
 	<!--────────────────Header───────────────-->
@@ -79,5 +86,15 @@
 		   <p>The Jackson Laboratory</p>
 		  </div>
 	</main>
+	<script>
+	$( ".hamburger" ).click(function() {
+	  $( ".nav-bar" ).toggleClass( "open_close" );
+	});
+	$( ".nav-link" ).click(function() {
+	  $( ".nav-bar" ).toggleClass( "open_close" );
+	});
+	
+	
+	</script>
 </body>
 </html>
