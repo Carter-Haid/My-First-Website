@@ -253,15 +253,11 @@ a.nav-link{
 #contact a{
     margin: 5px;
 	font-size:1.2rem;
+    text-decoration: underline;
+    text-decoration-color: #00a9e2;
 	font-family: var(--main-font-family);
 	color: var(--main-fonts-color);
 	border-bottom: 1px --main-decor-color;
-	text-align:center;
-}
-
-#contact  a:hover {
-	color: var(--main-decor-color);
-	text-shadow: 0 0 50px var(--main-decor-color);
 }
 
 #contact p{
