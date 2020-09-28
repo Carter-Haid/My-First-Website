@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: https://github.com/Carter-Haid/personalWebsite/blob/master/sitemap.xml
