@@ -167,16 +167,18 @@ a.nav-link{
       projects
 ──────────────────*/
 
-#projects{
-	margin-top:0px;
-    height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-    justify-content: center;
-	text-align:center;
-	color: var(--main-fonts-color);
-	background-color: var(--main-background);
+#projects {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--main-fonts-color);
+}
+
 }
 #projects h3{
     padding-top: 0px;
@@ -245,7 +247,6 @@ a.nav-link{
 	align-items: center;
 	justify-content: center;
 	color: var(--main-fonts-color);
-
 }
 
 #experience a{
@@ -410,7 +411,7 @@ hr {
 	max-width: 960px;
 	width: 95%;
 	color: white;
-	margin: 20px auto;
+	margin: auto;
 }
 header {
 	padding: 0 15px;
