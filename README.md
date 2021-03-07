@@ -11,7 +11,7 @@ This will link to my first version of my personal website. It is also the first 
 
 ## Contact
 #### Carter Haid
-* Homepage: Carterhaid.com
+* Homepage: [Carterhaid.com](https://carterhaid.com)
 * e-mail: carter.haid@maine.edu
 * Twitter: [@icansecurethat](https://twitter.com/icansecurethat "icansecurethat on twitter")
 
